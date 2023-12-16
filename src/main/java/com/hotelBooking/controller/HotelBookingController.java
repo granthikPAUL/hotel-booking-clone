@@ -82,4 +82,8 @@ class HotelBookingController {
 		return new ResponseEntity<Hotel>(hotelservice.addRoomToHotel(roomid, hotelId),HttpStatus.OK);
 	}
 	
+	public void gome() {
+		
+	}
+	
 }
